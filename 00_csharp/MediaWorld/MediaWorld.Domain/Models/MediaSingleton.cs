@@ -1,16 +1,19 @@
+using System;
+
 namespace MediaWorld.Domain.Models
 {
     public class MediaSingleton 
     {
-        private static readonly string _instance = "mediaplayer";
+        private static readonly MediaSingleton _instance = new MediaSingleton();
 
-        private MediaSingleton() 
-        {
-            
-        }
-        public static string GetInstance() 
+        private MediaSingleton() {}
+        public static MediaSingleton GetInstance() 
         {
             return _instance;
+        }
+
+        public void PrintHello() {
+            Console.WriteLine("Hello World");
         }
     }
 }

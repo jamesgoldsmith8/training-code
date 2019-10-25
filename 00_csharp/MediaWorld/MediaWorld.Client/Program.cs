@@ -14,7 +14,8 @@ namespace MediaWorld.Client
         private static void Main()
         {
             var helper = MediaSingleton.GetInstance();
-            Console.WriteLine(helper);
+            //Console.WriteLine(helper);
+            helper.PrintHello();
         }
     }
 }
