@@ -12,8 +12,9 @@ namespace MediaWorld.Domain.Models
             return _instance;
         }
 
-        public void PrintHello() {
-            Console.WriteLine("Hello World");
+        public void Play(Music m)
+        {
+            Console.WriteLine(m);
         }
     }
 }

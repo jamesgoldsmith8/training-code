@@ -17,5 +17,10 @@ namespace MediaWorld.Domain.Models
             Genre = "Country";
             Duration = new TimeSpan(0, 3, 0);
         }
+
+        public override string ToString()
+        {
+            return $"{Artist} {Title}";
+        }
     }
 }
