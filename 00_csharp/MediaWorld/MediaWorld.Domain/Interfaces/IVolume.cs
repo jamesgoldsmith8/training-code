@@ -1,4 +1,4 @@
 namespace MediaWorld.Domain.Interfaces 
 {
-    public interface IVolume{}
+    public interface IVolume {}
 }

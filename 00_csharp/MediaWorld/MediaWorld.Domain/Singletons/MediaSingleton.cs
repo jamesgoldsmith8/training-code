@@ -9,16 +9,6 @@ namespace MediaWorld.Domain.Singletons
         private static readonly MediaSingleton _instance = new MediaSingleton();
 
         private MediaSingleton() {}
-/*        public static MediaSingleton GetInstance() 
-        {
-            return _instance;
-        }
-
-        public void Play(Music m)
-        {
-            Console.WriteLine(m);
-        }
-*/
         public static MediaSingleton Instance 
         {
             get
