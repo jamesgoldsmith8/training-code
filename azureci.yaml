@@ -12,4 +12,3 @@ stages:
           steps:
             - script: |
               dotnet build 3_devops/Devops.sln
-
