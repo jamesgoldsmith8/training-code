@@ -9,9 +9,9 @@ stages:
       - job: aspnet
         pool:
           vmImage: ubuntu-18.04
-            steps:
-              - script: |
-                dotnet build 3_devops/Devops.sln
+          steps:
+            - script: |
+              dotnet build 3_devops/Devops.sln
     # - stage: test
     # - stage: pack
     # - stage: deploy
