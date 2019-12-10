@@ -32,6 +32,8 @@ namespace Devops.Test
 // needed to reload omnisharp
 // needed to add logger to HomeController
 // install coverlet.collector
-// 
-// dotnet test --collect:"XPlat Code Coverage"
+// dotnet add Devops.Test/Devops.Test.csproj package coverlet.collector
 // add <DebugType>Full</DebugType> in csproj
+// dotnet test --collect:"XPlat Code Coverage"
+// change csproj to netcoreapp3.0
+
