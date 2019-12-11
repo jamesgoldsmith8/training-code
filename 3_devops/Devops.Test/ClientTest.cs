@@ -37,3 +37,6 @@ namespace Devops.Test
 // dotnet test --collect:"XPlat Code Coverage"
 // change csproj to netcoreapp3.0
 
+
+// '**/TestResults/coverage.cobertura.xml'
+

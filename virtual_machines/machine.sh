@@ -1,6 +1,6 @@
 #!/bin/sh
 
-curl https://google.com
+##curl https://google.com
 
 ## configuration for docker
 apt update
