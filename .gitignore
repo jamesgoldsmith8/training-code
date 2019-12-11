@@ -6,7 +6,7 @@
 **/.vagrant/
 
 # azureci.yaml
-**/TestResults/510bdcd6-e633-4edb-a00d-1718f330013c
+**/TestResults/
 
 #
 **/00_csharp/
