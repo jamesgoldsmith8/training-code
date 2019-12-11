@@ -40,3 +40,8 @@ namespace Devops.Test
 
 // '**/TestResults/coverage.cobertura.xml'
 
+        //   - task: DotNetCoreCLI@2
+        //     inputs:
+        //       command: 'test'
+        //       projects: '3_devops/Devops.sln'
+        //       arguments: '--logger trx --collect:"XPlat Code Coverage"'
