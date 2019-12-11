@@ -6,7 +6,7 @@
 **/.vagrant/
 
 # azureci.yaml
-C:\Users\tyran\revature\3_devops\Devops.Test\TestResults\510bdcd6-e633-4edb-a00d-1718f330013c
+**/TestResults/510bdcd6-e633-4edb-a00d-1718f330013c
 
 #
 **/00_csharp/
